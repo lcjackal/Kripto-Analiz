@@ -1,0 +1,44 @@
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kripto Analiz Uygulaması</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_pump_dump">
+       <property name="title">
+        <string>Pump/Dump Radar</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="tab_watchlist">
+       <property name="title">
+        <string>İzleme Listesi</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="tab_settings">
+       <property name="title">
+        <string>Ayarlar</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

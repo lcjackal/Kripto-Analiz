@@ -1,0 +1,15 @@
+.
+├── main.py                  # Ana uygulama dosyası
+├── ui
+│   ├── main_window.ui       # PyQt arayüz dosyası
+│   ├── icons                # İkon ve logolar
+├── modules
+│   ├── data_fetcher.py      # Veri çekme modülü
+│   ├── data_validator.py    # Veri doğrulama ve güven skoru hesaplama
+│   ├── websocket_handler.py # WebSocket veri akışı
+│   ├── sentiment_analyzer.py# Topluluk verilerini analiz eden modül
+│   └── security.py          # API anahtar güvenliği
+├── config
+│   ├── api_keys.json        # Şifrelenmiş API anahtarları
+│   ├── settings.json        # Kullanıcı ayarları
+└── README.md                # Proje dokümantasyonu
